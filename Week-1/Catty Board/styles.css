@@ -1,0 +1,186 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  border-radius: 2px solid black;
+}
+
+.app {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: whitesmoke;
+}
+
+.sidebar {
+  background-color: #d3d3d3 !important;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3071A9;
+  height: 92%;
+  width: 40px;
+  left: 0;
+  top: 0;
+}
+
+
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: black;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+.header {
+  width: -webkit-fill-available;
+  height: 38vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #4b4c4d;
+}
+
+.chatty {
+  margin-top: 10px;
+  color: whitesmoke !important;
+}
+
+.song_info {
+  padding-top: 8px ;
+} 
+
+.title {
+    margin-top: 50px;
+    margin-right: 380px;
+    color: #fff;
+    font-size: large;
+   }
+
+h1 {
+  color: #fff;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 120px;
+  color: #fff;
+}
+
+h3 {
+    font-size:xx-small;
+}
+
+.cloud_sync {
+
+  color: blue;
+  padding: 2 5px;
+  border: 3px solid black;
+  border: 3px solid black;
+
+}
+
+/* .media-range {
+  background: red;
+} */
+
+.media_range {
+
+  width: 100%;
+  cursor: pointer;
+  margin-left: -84px;
+}
+
+.main-content {
+  /* display: flex; */
+  /* position: absolute; */
+  padding: 0px 50px;
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.media-player {
+  background-color: #0e86d4;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.songs:nth-child(even) {
+  background-color: #d3d3d3;
+}
+.songs:nth-child(odd) {
+  background-color: #fff;
+}
+
+.chatty-footer {
+  margin-top: 5px;
+  margin-left: 10px;
+  height: 60px;
+  width: 60px;
+  padding-bottom: 5px;
+}
+
+.current-song {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  flex: 0.3;
+}
+h2,
+p {
+  font-size: small;
+}
+
+.songs {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  height: 40px;
+}
+
+.icons-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artist-playing {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.media-range {
+  display: flex;
+  flex: 0.2;
+}
+
+.media-playback {
+  display: flex;
+  flex: 0.5;
+  justify-content: space-around;
+  align-items: center;
+}
